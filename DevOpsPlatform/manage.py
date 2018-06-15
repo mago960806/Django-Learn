@@ -13,11 +13,8 @@ if __name__ == "__main__":
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
-        """
-        The above import may fail for some other reason. Ensure that the
-        issue is really that Django is missing to avoid masking other
-        exceptions on Python 2.
-        """
+        #上面导入异常也可能是由其他原因导致的.
+        #确保这个异常确实是由于缺少Django包导致的,而不是由Python2导致的.
         try:
             import django
         except ImportError:
